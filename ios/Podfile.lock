@@ -1,0 +1,336 @@
+PODS:
+  - app_links (0.0.2):
+    - Flutter
+  - app_settings (5.1.1):
+    - Flutter
+  - appmetrica_plugin (3.1.0):
+    - AppMetricaAnalytics (~> 5.8)
+    - Flutter
+  - appmetrica_push_plugin (2.0.0):
+    - appmetrica_plugin
+    - AppMetricaPush (~> 2.0)
+    - Flutter
+  - AppMetricaAdSupport (5.8.0):
+    - AppMetricaCore (= 5.8.0)
+    - AppMetricaCoreExtension (= 5.8.0)
+  - AppMetricaAnalytics (5.8.0):
+    - AppMetricaAdSupport (= 5.8.0)
+    - AppMetricaCore (= 5.8.0)
+    - AppMetricaCrashes (= 5.8.0)
+    - AppMetricaWebKit (= 5.8.0)
+  - AppMetricaCore (5.8.0):
+    - AppMetricaCoreUtils (= 5.8.0)
+    - AppMetricaEncodingUtils (= 5.8.0)
+    - AppMetricaFMDB (= 5.8.0)
+    - AppMetricaHostState (= 5.8.0)
+    - AppMetricaLog (= 5.8.0)
+    - AppMetricaNetwork (= 5.8.0)
+    - AppMetricaPlatform (= 5.8.0)
+    - AppMetricaProtobuf (= 5.8.0)
+    - AppMetricaProtobufUtils (= 5.8.0)
+    - AppMetricaStorageUtils (= 5.8.0)
+  - AppMetricaCoreExtension (5.8.0):
+    - AppMetricaCore (= 5.8.0)
+    - AppMetricaStorageUtils (= 5.8.0)
+  - AppMetricaCoreUtils (5.8.0):
+    - AppMetricaLog (= 5.8.0)
+  - AppMetricaCrashes (5.8.0):
+    - AppMetricaCore (= 5.8.0)
+    - AppMetricaCoreExtension (= 5.8.0)
+    - AppMetricaCoreUtils (= 5.8.0)
+    - AppMetricaEncodingUtils (= 5.8.0)
+    - AppMetricaHostState (= 5.8.0)
+    - AppMetricaLog (= 5.8.0)
+    - AppMetricaPlatform (= 5.8.0)
+    - AppMetricaProtobufUtils (= 5.8.0)
+    - AppMetricaStorageUtils (= 5.8.0)
+    - KSCrash/Recording (< 2.1.0, >= 2.0.0-rc.1)
+  - AppMetricaEncodingUtils (5.8.0):
+    - AppMetricaCoreUtils (= 5.8.0)
+    - AppMetricaLog (= 5.8.0)
+    - AppMetricaPlatform (= 5.8.0)
+  - AppMetricaFMDB (5.8.0)
+  - AppMetricaHostState (5.8.0):
+    - AppMetricaCoreUtils (= 5.8.0)
+    - AppMetricaLog (= 5.8.0)
+  - AppMetricaLog (5.8.0)
+  - AppMetricaNetwork (5.8.0):
+    - AppMetricaCoreUtils (= 5.8.0)
+    - AppMetricaLog (= 5.8.0)
+    - AppMetricaPlatform (= 5.8.0)
+  - AppMetricaPlatform (5.8.0):
+    - AppMetricaCoreUtils (= 5.8.0)
+    - AppMetricaLog (= 5.8.0)
+  - AppMetricaProtobuf (5.8.0)
+  - AppMetricaProtobufUtils (5.8.0):
+    - AppMetricaProtobuf (= 5.8.0)
+  - AppMetricaPush (2.1.0):
+    - AppMetricaCore (~> 5.2)
+    - AppMetricaCoreExtension (~> 5.2)
+    - AppMetricaCoreUtils (~> 5.2)
+  - AppMetricaStorageUtils (5.8.0):
+    - AppMetricaCoreUtils (= 5.8.0)
+    - AppMetricaLog (= 5.8.0)
+  - AppMetricaWebKit (5.8.0):
+    - AppMetricaCore (= 5.8.0)
+    - AppMetricaCoreUtils (= 5.8.0)
+    - AppMetricaLog (= 5.8.0)
+  - appsflyer_sdk (6.15.1):
+    - AppsFlyerFramework (= 6.15.1)
+    - Flutter
+  - AppsFlyerFramework (6.15.1):
+    - AppsFlyerFramework/Main (= 6.15.1)
+  - AppsFlyerFramework/Main (6.15.1)
+  - device_info_plus (0.0.1):
+    - Flutter
+  - DKImagePickerController/Core (4.3.9):
+    - DKImagePickerController/ImageDataManager
+    - DKImagePickerController/Resource
+  - DKImagePickerController/ImageDataManager (4.3.9)
+  - DKImagePickerController/PhotoGallery (4.3.9):
+    - DKImagePickerController/Core
+    - DKPhotoGallery
+  - DKImagePickerController/Resource (4.3.9)
+  - DKPhotoGallery (0.0.19):
+    - DKPhotoGallery/Core (= 0.0.19)
+    - DKPhotoGallery/Model (= 0.0.19)
+    - DKPhotoGallery/Preview (= 0.0.19)
+    - DKPhotoGallery/Resource (= 0.0.19)
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Core (0.0.19):
+    - DKPhotoGallery/Model
+    - DKPhotoGallery/Preview
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Model (0.0.19):
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Preview (0.0.19):
+    - DKPhotoGallery/Model
+    - DKPhotoGallery/Resource
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Resource (0.0.19):
+    - SDWebImage
+    - SwiftyGif
+  - file_picker (0.0.1):
+    - DKImagePickerController/PhotoGallery
+    - Flutter
+  - Flutter (1.0.0)
+  - flutter_image_compress_common (1.0.0):
+    - Flutter
+    - Mantle
+    - SDWebImage
+    - SDWebImageWebPCoder
+  - flutter_inappwebview_ios (0.0.1):
+    - Flutter
+    - flutter_inappwebview_ios/Core (= 0.0.1)
+    - OrderedSet (~> 6.0.3)
+  - flutter_inappwebview_ios/Core (0.0.1):
+    - Flutter
+    - OrderedSet (~> 6.0.3)
+  - flutter_webrtc (0.11.3):
+    - Flutter
+    - WebRTC-SDK (= 125.6422.04)
+  - in_app_purchase_storekit (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - KSCrash/Core (2.0.0-rc.3)
+  - KSCrash/Recording (2.0.0-rc.3):
+    - KSCrash/RecordingCore
+  - KSCrash/RecordingCore (2.0.0-rc.3):
+    - KSCrash/Core
+  - libwebp (1.3.2):
+    - libwebp/demux (= 1.3.2)
+    - libwebp/mux (= 1.3.2)
+    - libwebp/sharpyuv (= 1.3.2)
+    - libwebp/webp (= 1.3.2)
+  - libwebp/demux (1.3.2):
+    - libwebp/webp
+  - libwebp/mux (1.3.2):
+    - libwebp/demux
+  - libwebp/sharpyuv (1.3.2)
+  - libwebp/webp (1.3.2):
+    - libwebp/sharpyuv
+  - Mantle (2.2.0):
+    - Mantle/extobjc (= 2.2.0)
+  - Mantle/extobjc (2.2.0)
+  - OrderedSet (6.0.3)
+  - package_info_plus (0.4.5):
+    - Flutter
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - pdfx (1.0.0):
+    - Flutter
+  - SDWebImage (5.19.7):
+    - SDWebImage/Core (= 5.19.7)
+  - SDWebImage/Core (5.19.7)
+  - SDWebImageWebPCoder (0.14.6):
+    - libwebp (~> 1.0)
+    - SDWebImage/Core (~> 5.17)
+  - share_plus (0.0.1):
+    - Flutter
+  - shared_preferences_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - sqflite (0.0.3):
+    - Flutter
+    - FlutterMacOS
+  - SwiftyGif (5.4.5)
+  - url_launcher_ios (0.0.1):
+    - Flutter
+  - video_player_avfoundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - WebRTC-SDK (125.6422.04)
+
+DEPENDENCIES:
+  - app_links (from `.symlinks/plugins/app_links/ios`)
+  - app_settings (from `.symlinks/plugins/app_settings/ios`)
+  - appmetrica_plugin (from `.symlinks/plugins/appmetrica_plugin/ios`)
+  - appmetrica_push_plugin (from `.symlinks/plugins/appmetrica_push_plugin/ios`)
+  - appsflyer_sdk (from `.symlinks/plugins/appsflyer_sdk/ios`)
+  - device_info_plus (from `.symlinks/plugins/device_info_plus/ios`)
+  - file_picker (from `.symlinks/plugins/file_picker/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_image_compress_common (from `.symlinks/plugins/flutter_image_compress_common/ios`)
+  - flutter_inappwebview_ios (from `.symlinks/plugins/flutter_inappwebview_ios/ios`)
+  - flutter_webrtc (from `.symlinks/plugins/flutter_webrtc/ios`)
+  - in_app_purchase_storekit (from `.symlinks/plugins/in_app_purchase_storekit/darwin`)
+  - package_info_plus (from `.symlinks/plugins/package_info_plus/ios`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
+  - pdfx (from `.symlinks/plugins/pdfx/ios`)
+  - share_plus (from `.symlinks/plugins/share_plus/ios`)
+  - shared_preferences_foundation (from `.symlinks/plugins/shared_preferences_foundation/darwin`)
+  - sqflite (from `.symlinks/plugins/sqflite/darwin`)
+  - url_launcher_ios (from `.symlinks/plugins/url_launcher_ios/ios`)
+  - video_player_avfoundation (from `.symlinks/plugins/video_player_avfoundation/darwin`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AppMetricaAdSupport
+    - AppMetricaAnalytics
+    - AppMetricaCore
+    - AppMetricaCoreExtension
+    - AppMetricaCoreUtils
+    - AppMetricaCrashes
+    - AppMetricaEncodingUtils
+    - AppMetricaFMDB
+    - AppMetricaHostState
+    - AppMetricaLog
+    - AppMetricaNetwork
+    - AppMetricaPlatform
+    - AppMetricaProtobuf
+    - AppMetricaProtobufUtils
+    - AppMetricaPush
+    - AppMetricaStorageUtils
+    - AppMetricaWebKit
+    - AppsFlyerFramework
+    - DKImagePickerController
+    - DKPhotoGallery
+    - KSCrash
+    - libwebp
+    - Mantle
+    - OrderedSet
+    - SDWebImage
+    - SDWebImageWebPCoder
+    - SwiftyGif
+    - WebRTC-SDK
+
+EXTERNAL SOURCES:
+  app_links:
+    :path: ".symlinks/plugins/app_links/ios"
+  app_settings:
+    :path: ".symlinks/plugins/app_settings/ios"
+  appmetrica_plugin:
+    :path: ".symlinks/plugins/appmetrica_plugin/ios"
+  appmetrica_push_plugin:
+    :path: ".symlinks/plugins/appmetrica_push_plugin/ios"
+  appsflyer_sdk:
+    :path: ".symlinks/plugins/appsflyer_sdk/ios"
+  device_info_plus:
+    :path: ".symlinks/plugins/device_info_plus/ios"
+  file_picker:
+    :path: ".symlinks/plugins/file_picker/ios"
+  Flutter:
+    :path: Flutter
+  flutter_image_compress_common:
+    :path: ".symlinks/plugins/flutter_image_compress_common/ios"
+  flutter_inappwebview_ios:
+    :path: ".symlinks/plugins/flutter_inappwebview_ios/ios"
+  flutter_webrtc:
+    :path: ".symlinks/plugins/flutter_webrtc/ios"
+  in_app_purchase_storekit:
+    :path: ".symlinks/plugins/in_app_purchase_storekit/darwin"
+  package_info_plus:
+    :path: ".symlinks/plugins/package_info_plus/ios"
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/darwin"
+  pdfx:
+    :path: ".symlinks/plugins/pdfx/ios"
+  share_plus:
+    :path: ".symlinks/plugins/share_plus/ios"
+  shared_preferences_foundation:
+    :path: ".symlinks/plugins/shared_preferences_foundation/darwin"
+  sqflite:
+    :path: ".symlinks/plugins/sqflite/darwin"
+  url_launcher_ios:
+    :path: ".symlinks/plugins/url_launcher_ios/ios"
+  video_player_avfoundation:
+    :path: ".symlinks/plugins/video_player_avfoundation/darwin"
+
+SPEC CHECKSUMS:
+  app_links: e7a6750a915a9e161c58d91bc610e8cd1d4d0ad0
+  app_settings: 017320c6a680cdc94c799949d95b84cb69389ebc
+  appmetrica_plugin: 22d4d1eb9d070509fce428774b7f0d0686564010
+  appmetrica_push_plugin: 091da389ab39ee11a00ddb4932601f296cd29bcd
+  AppMetricaAdSupport: 493b39102f35b69a2db4c3656d776ab69890b1df
+  AppMetricaAnalytics: f01c797b9a413bd1825bb32faa8cf1ad2ff2cca3
+  AppMetricaCore: 9892526623a03d946f700aba8ee6ed0df77f4e80
+  AppMetricaCoreExtension: 953e911a544e0b4349b01b5032cdecab88f345fc
+  AppMetricaCoreUtils: 00ef934044dbe5515d9ce5b3b4020695abecb5df
+  AppMetricaCrashes: 31d4274b67c11a737e359727b954d51cafd11f53
+  AppMetricaEncodingUtils: 807366100e5be16bc6138e6f87ea739f707500b3
+  AppMetricaFMDB: 81844d8e01994696ebe37eeb8484dbf90e6ffb62
+  AppMetricaHostState: d7241335f6dd9d2e7553cf2d24cceb515e3d94ce
+  AppMetricaLog: 527a12413d267fe421b5fcd28e5435758f569f4d
+  AppMetricaNetwork: 9a479c29094a62e01c976a306846637df36f8682
+  AppMetricaPlatform: 7c5cd23c32268612d51b4122ca3c9df4052265bb
+  AppMetricaProtobuf: c7a6c851aa8a1a035776f4821334b593c546abd2
+  AppMetricaProtobufUtils: d0aa7b2ab478390aad3134451fb9c3098b9f2f25
+  AppMetricaPush: 0ee29743dad712f2640ead0e0d5115d249adf423
+  AppMetricaStorageUtils: 8702c65d91a5e32dafcffbfae6af55b2cf767875
+  AppMetricaWebKit: 738d64d10f59d36a4b0db0e5565d55064f985b51
+  appsflyer_sdk: 7201a241409fd6058392a6ef57cf4bcfff3545cb
+  AppsFlyerFramework: 375c63ff47da664031d2723947867caf0205058c
+  device_info_plus: 97af1d7e84681a90d0693e63169a5d50e0839a0d
+  DKImagePickerController: 946cec48c7873164274ecc4624d19e3da4c1ef3c
+  DKPhotoGallery: b3834fecb755ee09a593d7c9e389d8b5d6deed60
+  file_picker: 09aa5ec1ab24135ccd7a1621c46c84134bfd6655
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  flutter_image_compress_common: ec1d45c362c9d30a3f6a0426c297f47c52007e3e
+  flutter_inappwebview_ios: 6f63631e2c62a7c350263b13fa5427aedefe81d4
+  flutter_webrtc: 75b868e4f9e817c7a9a42ca4b6169063de4eec9f
+  in_app_purchase_storekit: 8c3b0b3eb1b0f04efbff401c3de6266d4258d433
+  KSCrash: 6104c0ff6df6818d69b706f72c5152f0ac2c2236
+  libwebp: 1786c9f4ff8a279e4dac1e8f385004d5fc253009
+  Mantle: c5aa8794a29a022dfbbfc9799af95f477a69b62d
+  OrderedSet: e539b66b644ff081c73a262d24ad552a69be3a94
+  package_info_plus: 58f0028419748fad15bf008b270aaa8e54380b1c
+  path_provider_foundation: 2b6b4c569c0fb62ec74538f866245ac84301af46
+  pdfx: 7b876b09de8b7a0bf444a4f82b439ffcff4ee1ec
+  SDWebImage: 8a6b7b160b4d710e2a22b6900e25301075c34cb3
+  SDWebImageWebPCoder: e38c0a70396191361d60c092933e22c20d5b1380
+  share_plus: 8875f4f2500512ea181eef553c3e27dba5135aad
+  shared_preferences_foundation: fcdcbc04712aee1108ac7fda236f363274528f78
+  sqflite: 673a0e54cc04b7d6dba8d24fb8095b31c3a99eec
+  SwiftyGif: 706c60cf65fa2bc5ee0313beece843c8eb8194d4
+  url_launcher_ios: 5334b05cef931de560670eeae103fd3e431ac3fe
+  video_player_avfoundation: 7c6c11d8470e1675df7397027218274b6d2360b3
+  WebRTC-SDK: c3d69a87e7185fad3568f6f3cff7c9ac5890acf3
+
+PODFILE CHECKSUM: 9cbfc71bfeb32955c7387a988e3adb127d70a276
+
+COCOAPODS: 1.15.2
